@@ -13,8 +13,9 @@ Aqui você encontrará meus projetos e contribuições. Sinta-se livre para expl
 
 ## 📫 Contato
 
-- GitHub: [seu-usuario](https://github.com/seu-usuario)
-- Email: seu-email@email.com
+- GitHub: [seu-usuario](https://github.com/Sorrateiro)
+- Email: <email>greggorytrajano289@gmail.com </email>
+- 
 
 ---
 
