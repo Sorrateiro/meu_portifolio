@@ -1,0 +1,65 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+    padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    width: 100%;
+  background: #333;
+  padding: 10px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 250px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.avatar  {
+  width: 12vw;
+  height: auto;
+  border-radius: 30% 50%;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form input, form textarea {
+  width: 300px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

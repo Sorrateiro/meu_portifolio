@@ -10,6 +10,7 @@ Desenvolvedor Full Stack com experiência em:
 ## 🚀 Projetos
 
 Aqui você encontrará meus projetos e contribuições. Sinta-se livre para explorar meu código e entrar em contato!
+Navegue e descubra esse portifólio 
 
 ## 📫 Contato
 
@@ -20,4 +21,4 @@ Aqui você encontrará meus projetos e contribuições. Sinta-se livre para expl
 
 ---
 
-*Desenvolvedor em constante aprendizado e evolução* 🎯
+*Desenvolvedor em constante aprendizado e evolução* 
