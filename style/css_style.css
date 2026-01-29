@@ -63,3 +63,8 @@ form input, form textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+.projeto01 {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
