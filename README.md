@@ -16,7 +16,7 @@ Aqui você encontrará meus projetos e contribuições. Sinta-se livre para expl
 - GitHub: [seu-usuario](https://github.com/Sorrateiro)
 - Email: <email>greggorytrajano289@gmail.com </email>
 - telefone : +55 51 93501-8635
-- whatsap : (https://wa.me/qr/ZOGHI6L7UEQMN1)
+- whatsap : (https://wa.me/5551991771741)
 
 ---
 
