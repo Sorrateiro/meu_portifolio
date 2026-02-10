@@ -5,18 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio - Henrique</title>
   <link rel="stylesheet" href="style/css_style.css">
+  <link rel="stylesheet" href="style/mediaquerry.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 </head>
-<body>
+<body onload="carregou()">
   <!-- Navegação -->
+     <span class="material-symbols-outlined" id="amburguer" onclick="menuclick()">
+menu
+</span>
   <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
+    <nav id ="nav-menu">
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      
+      
     </nav>
+      <p id="visualização"></p>
   </header>
 
   <!-- Seção Home -->
@@ -24,24 +32,47 @@
     <img src="imagens/20260126_113327.jpg" alt="henrique" class="avatar">
     <h1>Olá, eu sou Henrique</h1>
     <p>Desenvolvedor Web focado em soluções criativas e funcionais.</p>
+    <p>há dois anos atuando no desenvolvimento web.</p>
   </section>
 
   <!-- Seção Sobre -->
   <section id="sobre">
     <h2>Sobre mim</h2>
     <p>Estudo e trabalho com HTML, CSS, JavaScript e PHP. Gosto de criar sites dinâmicos e responsivos.</p>
+    <p>Meu objetivo é entregar projetos de alta qualidade que atendam às necessidades dos clientes.</p><br>
+    
+    
+      <nav class="linguagens">
+        <div class="html">
+          <p id="html" >HTML 
+            <p style="margin-top: 25PX;">A estrutura de uma página web.</p>
+          </p>
+          <p style="margin-top: 25PX;">A estrutura de uma página web.</p> <br>
+        </div>
+        <div class="css">
+          <p id="css">CSS</p><br>
+          <p style="margin-top: 25PX;">Estilo e aparência de uma página web.</p> <br>
+        </div>
+        <div class="javascript">
+          <p  id="javascript">JavaScript</p><br>
+          <p style="margin-top: 25PX;">Interatividade e funcionalidades dinâmicas em uma página web.</p> <br>
+        </div>
+        <div class="php">
+          <p id="php">PHP</p><br>
+          <p style="margin-top: 25PX;">Back-end para desenvolvimento web.</p> <br>
+        </div>
+      </nav>
+    
   </section>
 
   <!-- Seção Projetos -->
   <section id="projetos">
     <h2>Meus Projetos</h2>
     <div class="card">
-      <img src="imagens/projeto01/2026-01-29 (1).png" alt="Projeto 1" class="projeto01">
+      
       <img src="imagens/projeto01/2026-01-29 (2).png" alt="Projeto 1" class="projeto01">
-      <img src="imagens/projeto01/2026-01-29 (3).png" alt="Projeto 1" class="projeto01">
-      <img src="imagens/projeto01/2026-01-29 (4).png" alt="Projeto 1" class="projeto01">
-      <h3>Clinica Rinovare</h3>
-      <p>a intenção desse site é de conseguir mais clientes através da internet.</p>
+      <h3>Clinica Rinovari</h3>
+      <p>a intenção desse site é de conseguir mais clientes através de estratégia de engajamento e ADS Google.</p>
       <a href="https://sorrateiro.github.io/GIT.trabalhos-oficiais/">Ver site</a>
     </div>
     <div class="card">

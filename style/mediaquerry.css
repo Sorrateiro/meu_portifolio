@@ -1,0 +1,30 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+    padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* para tablet */
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+    li {
+        display: block;
+        padding: 20px;
+        background-color: rgb(113, 114, 114);
+    }
+   
+}
+/* para desktop */
+@media screen and (min-width: 992px) and (max-width: 1300px) {
+    li {
+        display: block;
+        background-color: salmon;
+        padding: 15px;
+        background-color: rgb(80, 81, 81);
+    }
+
+}
