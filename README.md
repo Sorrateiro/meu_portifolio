@@ -2,15 +2,15 @@
 pagina inicial da apresentaçãp / home
 ## 👋 Sobre Mim
 
-Desenvolvedor Full Stack com experiência em:
+Desenvolvedor Full Stack com praticas de :
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Backend**: PHP
 - **Ferramentas**: Git, GitHub
 
 ## 🚀 Projetos
 
-Aqui você encontrará meus projetos e contribuições. Sinta-se livre para explorar meu código e entrar em contato!
-Navegue e descubra esse portifólio 
+<p> Aqui você encontrará meus projetos e contribuições. Sinta-se livre para explorar meu código e entrar em contato!
+Navegue e descubra esse portifólio</p> 
 
 ## 📫 Contato
 

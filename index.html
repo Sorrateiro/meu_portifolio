@@ -4,90 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio - Henrique</title>
-  <link rel="stylesheet" href="style/css_style.css">
+  <link rel="stylesheet" href="style/farstMobile.css">
   <link rel="stylesheet" href="style/mediaquerry.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+  
 </head>
-<body onload="carregou()">
+<body onload="Aocarregar()">
+  <p id="visualização" style="text-align: end ;padding: 0px ; margin: 0px; background-color: black; color: bisque;"></p>
   <!-- Navegação -->
-     <span class="material-symbols-outlined" id="amburguer" onclick="menuclick()">
-menu
-</span>
-  <header>
-    <nav id ="nav-menu">
-        <ul>
-          <li><a href="#home">Início</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      
-      
-    </nav>
-      <p id="visualização"></p>
-  </header>
 
-  <!-- Seção Home -->
-  <section id="home">
-    <img src="imagens/20260126_113327.jpg" alt="henrique" class="avatar">
-    <h1>Olá, eu sou Henrique</h1>
+  <header>
+        <img src="imagens/20260126_113327.jpg" alt="henrique" class="avatar">
+    <h1>Olá! eu sou Henrique </h1>
     <p>Desenvolvedor Web focado em soluções criativas e funcionais.</p>
     <p>há dois anos atuando no desenvolvimento web.</p>
-  </section>
-
-  <!-- Seção Sobre -->
-  <section id="sobre">
-    <h2>Sobre mim</h2>
-    <p>Estudo e trabalho com HTML, CSS, JavaScript e PHP. Gosto de criar sites dinâmicos e responsivos.</p>
-    <p>Meu objetivo é entregar projetos de alta qualidade que atendam às necessidades dos clientes.</p><br>
-    
-    
-      <nav class="linguagens">
-        <div class="html">
-          <p id="html" >HTML 
-            <p style="margin-top: 25PX;">A estrutura de uma página web.</p>
-          </p>
-          <p style="margin-top: 25PX;">A estrutura de uma página web.</p> <br>
-        </div>
-        <div class="css">
-          <p id="css">CSS</p><br>
-          <p style="margin-top: 25PX;">Estilo e aparência de uma página web.</p> <br>
-        </div>
-        <div class="javascript">
-          <p  id="javascript">JavaScript</p><br>
-          <p style="margin-top: 25PX;">Interatividade e funcionalidades dinâmicas em uma página web.</p> <br>
-        </div>
-        <div class="php">
-          <p id="php">PHP</p><br>
-          <p style="margin-top: 25PX;">Back-end para desenvolvimento web.</p> <br>
-        </div>
-      </nav>
-    
-  </section>
-
-  <!-- Seção Projetos -->
-  <section id="projetos">
-    <h2>Meus Projetos</h2>
-    <div class="card">
-      
-      <img src="imagens/projeto01/2026-01-29 (2).png" alt="Projeto 1" class="projeto01">
-      <h3>Clinica Rinovari</h3>
-      <p>a intenção desse site é de conseguir mais clientes através de estratégia de engajamento e ADS Google.</p>
-      <a href="https://sorrateiro.github.io/GIT.trabalhos-oficiais/">Ver site</a>
+  </header>
+  <header class="main-header">
+    <div class="header-content">
+        <h1>Título do Seu Site</h1>
+        <p>Subtítulo ou slogan aqui</p>
     </div>
-    <div class="card">
-      <img src="imagens/projeto02/2026-02-16.png" alt="Projeto 2" class="projeto01">
+</header>
 
-      <h3>Site de Loja Virtual</h3>
-      <p>Site de loja virtual desenvolvido com HTML, CSS e JavaScript.</p>
-      <a href="https://github.com/Sorrateiro/ts_deliver">não disponivel</a>
-      <p>este projeto é privado</p>
-    </div>
+  
+  <span id="mobile-menu" class="material-symbols-outlined" >menu</span>   
+  <nav class="navbar" id="navbar">
+      <ul class="lista " id="NavLista">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#Proposta">Proposta</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  
+
+  <section id="sobre" class="container">
+    <h2>Decole seu potencial</h2>
+    <p>Deixe seu negócio mais profissional como site inovador.</p>
+    <figure>
+      <img src="imagens/aperto de maos.png" alt="aperto de mãos">
+        <figcaption >imagem criada por IA Nano Banana 2</figcaption
+    </figure>
+    <p>Adapte-se às mudanças e impulsione seu sucesso digital.</p><br>
+    <figure>
+      <img src="imagens/ideacomlAMPADA.png" alt="ideia com lâmpada">
+      <figcaption>Ideia brilhante para seu negócio</figcaption>
+    </figure>
+    <p>Receba o melhor serviço de disiner personalizado de acordo com seu gosto e Agrade seus clientes </p>
   </section>
+  <main id="Proposta" class="container">
+    <h1>Já imaginou ter seu negócio com a cara que você deseja?</h1>
+    <p>Comigo, você pode transformar sua visão em realidade. Ofereço serviços de design personalizados para criar um site que reflita a identidade única do seu negócio. Desde a escolha das cores até a estrutura do layout, cada detalhe é cuidadosamente elaborado para garantir que seu site seja visualmente atraente e funcional.</p>
+    <p>Não importa o tamanho do seu negócio, estou aqui para ajudar a criar uma presença online que se destaque. Entre em contato comigo para discutir suas ideias e vamos trabalhar juntos para criar um site que impressione seus clientes e impulsione seu sucesso digital.</p>
+  </main>
 
   <!-- Seção Contato -->
-  <section id="contato">
-    <h2>Seus dados estão seguros conosco</h2>
+  <section id="contato" class="Contato">
+    <h2>Entre em contato e receba uma exemplo rápido de meu trabalho </h2>
     <fildset>
         <legend>Contato</legend>
         <form action="php/php001.php" method="get" autocomplete="on">
@@ -98,7 +70,9 @@ menu
         </form>
     </fildset>
   </section>
-
+<footer>
+  <p>&copy; 2024 Henrique. Todos os direitos reservados.</p>
+</footer>
   <script src="script/javascript.js"></script>
 </body>
 </html>

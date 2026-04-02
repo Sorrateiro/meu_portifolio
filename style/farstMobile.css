@@ -1,0 +1,200 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+    --cor-Primaria: #007bff;
+    --cor-Secundaria: #6c757d;
+    --cor-Fundo: #f8f9fa;
+    --cor-Texto: #333;
+    --rodape-Fundo: #083e5e;
+    --rodape-Texto: #ffffff;   
+     
+}
+.rubik-80s-fade-regular {
+  font-family: "Rubik 80s Fade", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+ background-image: linear-gradient(135deg, #b0bcf3 0%, #b6fccb 100%);
+}
+
+html {
+    /* scroll behavior para deixar a rolagem suave */
+  scroll-behavior: smooth;
+}
+
+/* Tipografia */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+header {
+    display: block;
+    align-items: center;
+    padding: 16px;
+    background-image: linear-gradient( to right, rgb(255, 255, 255) , rgba(138, 140, 255, 0.753) );
+    color: #000000;
+}
+header h1 {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-shadow: 0.1em 0.1em 0.2em black
+  
+}
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+.navbar {
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #444;
+    padding: 0px;
+    display: none; /* padrão mobile: escondido até o clique */
+}
+
+.material-symbols-outlined {
+    display: none; /* padrão desktop: escondido */
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 20px;
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+  .material-symbols-outlined {
+    display: block; /* mostrar ícone no mobile */
+  }
+  .navbar {
+    display: none; /* navbar inicialmente escondida no mobile */
+  }
+
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: flex; /* no desktop, o menu está sempre visível */
+    
+  }
+  .material-symbols-outlined {
+    display: none; /* no desktop, o ícone some */
+  }
+    .container figure img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+.lista {
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+    padding: auto;
+    
+}
+.lista li {
+    list-style: none;
+    margin: 0.5rem 0;
+    background-color: white;
+    border-radius: 20px;
+}
+.lista li a {
+    display: inline;
+    margin: auto;
+    text-align: center;
+    color: #000000;
+    text-shadow: #333 0.1em 0.1em 0.2em;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.lista li:hover {
+    background-color: #d4d4d4;
+    translate: calc(-5px);
+  }
+
+  .lista.active {
+    display: flex;
+  }
+  .container{
+    width: 90%;
+    text-align: center;
+    background-color: #f8f9fa63;
+    margin: auto;
+  }
+  .container h2{
+    /* com linhas embaixo */
+    text-decoration: underline;
+    text-decoration-color: rgb(210, 30, 30);
+    text-decoration-thickness: 2px;
+    font-style: oblique;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  .container img{
+    
+    width: 25em;
+  }
+  .container figure figcaption{
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
+  }
+  .main-header {
+    background-image: url('../imagens/imagenCAbeçalho.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajuste a altura conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.Contato {
+    background-color: var(--cor-Fundo);
+    color: var(--cor-Texto);
+    padding: 20px;
+    text-align: center;
+}
+.Contato input, .Contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.Contato button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: var(--cor-Primaria);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background-color: var(--rodape-Fundo);
+    color: var(--rodape-Texto);
+}
