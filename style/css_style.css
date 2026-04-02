@@ -83,6 +83,7 @@ form input, form textarea {
   width: 200px;
   height: auto;
   margin-bottom: 10px;
+  background-repeat: no-repeat;
 }
 ul#social-links {
   list-style: none;
