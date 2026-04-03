@@ -37,20 +37,53 @@
         font-weight: 600;
         }
     header {
-        display: block;
+        display: flex;
         align-items: center;
         padding: 16px;
         background-image: linear-gradient( to right, rgb(255, 255, 255) , rgba(138, 140, 255, 0.753) );
         color: #000000;
         box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.438);
+        gap: 20px;
     }
+    
     header h1 {
+        /* ajustando h1 para deixar ao lado de baner
+     */
+        display: inline-block;
+        background-color: #63697000;
         font-family: "Lora", serif;
         font-optical-sizing: auto;
-        font-weight: <weight>;
+        font-weight: 700 ;
         font-style: normal;
-        text-shadow: 0.1em 0.1em 0.2em black
-    
+        text-shadow: 0.1em 0.1em 0.2em black;
+    }
+    /* deixando a imagem baner ao lado do h1 */
+    header picture {
+        display: inline-block;
+        position: relative;
+        margin-left: auto;
+        border-radius: 5%;
+        
+    }
+    header picture img{max-width: 300px; 
+    height: auto;
+    margin-left: auto;
+    border-radius: 5%;
+    box-shadow: #000000 0px 4px 8px;}
+     .container h2{
+        text-decoration: underline;
+        text-decoration-color: rgb(210, 30, 30);
+        text-decoration-thickness: 2px;
+        font-style: oblique;
+        font-size: 3.5rem;
+        margin: 1rem 0;}
+        .navbar {
+        margin: 0px;
+        flex-direction: row;
+    }
+     .navbar {
+        margin: 0px;
+        flex-direction: row;
     }
     .navbar{
         background-color: rgba(64, 224, 208, 0);
@@ -60,9 +93,7 @@
         display: inline-block;
         width: 20%;
     }
-    header img {
-        width: 80px;
-    }
+    
     .container {
         max-width: 1200px;
         padding: 20px;
@@ -71,36 +102,78 @@
         border: 2px solid #000000;
         border-radius: 8px;
         box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.438);}
-    
-    .container p{
-        font-size: 2.2rem;
-        margin-bottom: 1rem;
-
+    .container h3{
+        font-size: 1.5rem;
+        margin-top: 1rem;
     }
-    .container h2{
-        text-decoration: underline;
-        text-decoration-color: rgb(210, 30, 30);
-        text-decoration-thickness: 2px;
-        font-style: oblique;
-        font-size: 3.5rem;
-        margin: 1rem 0;
-
-    }
-    .container img{
-        
-        width: 30em;}
-    .container figure figcaption{
-        font-size: 0.8rem;}
-    footer {
-        background-color: var(--rodape-Fundo);
-        color: var(--rodape-Texto);
-        text-align: center;
+    .Contato {
+        background-color: #424d5857;
         padding: 20px;
+        border: 2px solid #000000;
+        border-radius: 8px;
+        box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.438);
     }
-    .material-symbols-outlined {
-        font-size: 2rem;
-        cursor: pointer;
-        padding: 20px;
+    .Contato h2 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .Contato form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Contato form input,
+    .Contato form textarea {
         margin: auto;
+        width: 50%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
     }
+    .Contato form button {
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    footer{
+        margin: 3px;
+            padding: 10px;
+            text-align: center;
+            background-color: var(--rodape-Fundo);
+            color: var(--rodape-Texto);
+            font-size: 0.9rem;
+            box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.438);
+    background-color: #000000;
+    color: #adab00;
+    }
+    .meu-link {
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: #fff; /* Fundo branco como você mencionou */
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    transition: all 0.2s ease; /* Suaviza o movimento */
+    
+    /* Sombra normal (para fora) enquanto parado */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    /* Efeito ao clicar */
+    .meu-link:active {
+    /* Remove a sombra de fora e cria a "sombra para trás" (para dentro) */
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2);
+    
+    /* Pequeno movimento para baixo para simular o clique físico */
+    transform: translateY(2px);
+    
+    /* A linha embaixo que você mencionou */
+    border-bottom: 2px solid #007bff; }
 }
+
