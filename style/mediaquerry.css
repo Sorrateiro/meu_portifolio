@@ -150,37 +150,37 @@
         cursor: pointer;
     }
     footer{
-        margin: 3px;
+            margin: 3px;
             padding: 10px;
             text-align: center;
             background-color: var(--rodape-Fundo);
             color: var(--rodape-Texto);
             font-size: 0.9rem;
             box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.438);
-    background-color: #000000;
-    color: #adab00;
-    }
-    .meu-link {
-    display: inline-block;
-    padding: 5px 5px;
-    background-color: #fff; /* Fundo branco como você mencionou */
-    color: #333;
-    text-decoration: none;
-    border: 1px solid #ddd;
-    transition: all 0.2s ease; /* Suaviza o movimento */
-    
-    /* Sombra normal (para fora) enquanto parado */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    /* Efeito ao clicar */
-    .meu-link:active {
-    /* Remove a sombra de fora e cria a "sombra para trás" (para dentro) */
-    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2);
-    
-    /* Pequeno movimento para baixo para simular o clique físico */
-    transform: translateY(2px);
-    
-    /* A linha embaixo que você mencionou */
-    border-bottom: 2px solid #007bff; }
+            background-color: #000000;
+            color: #adab00;
+            }
+            .meu-link {
+            display: inline-block;
+            padding: 5px 5px;
+            background-color: #fff; /* Fundo branco como você mencionou */
+            color: #333;
+            text-decoration: none;
+            border: 1px solid #ddd;
+            transition: all 0.2s ease; /* Suaviza o movimento */
+            
+            /* Sombra normal (para fora) enquanto parado */
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            }
+            /* Efeito ao clicar */
+            .meu-link:active {
+            /* Remove a sombra de fora e cria a "sombra para trás" (para dentro) */
+            box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2);
+            
+            /* Pequeno movimento para baixo para simular o clique físico */
+            transform: translateY(2px);
+            
+            /* A linha embaixo que você mencionou */
+            border-bottom: 2px solid #007bff; }
 }
 

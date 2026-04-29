@@ -159,9 +159,9 @@ header .avatar {
     font-size: 2.5rem;
     margin: 1rem 0;
   }
-  .container img{
+  .container figure img{
     
-    width: 25em;
+    width: 23em;
   }
   .container figure figcaption{
     font-size: 0.8rem;
