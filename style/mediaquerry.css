@@ -46,7 +46,7 @@ header {
 }
 
 .avatar {
-  width: min(220px, 45vw);
+  width: min(200px, 40vw);
   margin: 0 auto 22px;
   border-radius: 50%;
   object-fit: cover;

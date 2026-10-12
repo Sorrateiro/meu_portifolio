@@ -3,6 +3,11 @@ function Aocarregar() {
   const mobileMenu = document.getElementById("mobile-menu");
   const navbar = document.getElementById("navbar");
   const visualizacao = document.getElementById("visualização");
+  const botaoTopo = document.getElementById("voltar-topo");
+
+  function atualizarBotaoTopo() {
+    botaoTopo.classList.toggle("visivel", window.scrollY > 300);
+  }
 
   function atualizarLayout() {
     const isMobile = window.innerWidth < 768;
@@ -32,8 +37,23 @@ function Aocarregar() {
     }
   });
 
+  document.addEventListener("click", function(event) {
+    const menuAberto = mobileMenu.getAttribute("aria-expanded") === "true";
+    const clicouNoHamburguer = event.target === mobileMenu;
+
+    if (window.innerWidth < 768 && menuAberto && !clicouNoHamburguer) {
+      navbar.style.display = "none";
+      mobileMenu.setAttribute("aria-expanded", "false");
+    }
+  });
+
   window.addEventListener("resize", atualizarLayout);
+  window.addEventListener("scroll", atualizarBotaoTopo);
+  botaoTopo.addEventListener("click", function() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   atualizarLayout();
+  atualizarBotaoTopo();
 }
 
 // Opcional: função única para alternar o menu quando chamado manualmente
